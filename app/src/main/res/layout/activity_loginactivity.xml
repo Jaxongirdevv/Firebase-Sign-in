@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginactivity">
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:background="@drawable/color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ImageView>
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="32dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:text="Kirish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <LinearLayout
+        android:layout_marginBottom="175dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/signup_rdit"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                android:layout_width="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="25dp"></ImageView>
+            <EditText
+                android:id="@+id/ismedt"
+                android:paddingStart="10dp"
+                android:fontFamily="monospace"
+                android:hint="Ism"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></EditText>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/signup_rdit"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_baseline_email_24"
+                android:layout_width="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="25dp"></ImageView>
+            <EditText
+                android:id="@+id/emailedt"
+                android:paddingStart="10dp"
+                android:fontFamily="monospace"
+                android:hint="Elektron pochta"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></EditText>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/signup_rdit"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_baseline_lock_24"
+                android:layout_width="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="25dp"></ImageView>
+            <EditText
+                android:id="@+id/paroledt"
+                android:paddingStart="10dp"
+                android:fontFamily="monospace"
+                android:hint="Parol"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></EditText>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/mainlogin1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_login_btn_shape"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center">
+            <TextView
+                android:fontFamily="monospace"
+                android:textSize="16sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Kirish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

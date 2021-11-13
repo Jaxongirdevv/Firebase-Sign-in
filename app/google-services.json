@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "421795720481",
+    "project_id": "fribasew",
+    "storage_bucket": "fribasew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421795720481:android:7b2e007f846be9ef41e260",
+        "android_client_info": {
+          "package_name": "com.example.signup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421795720481-5nemqhrgmt7vjbdp5dk3lus6pd877l0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjSlAK9uojCqYmdQ5iFCYij7b3SlheL5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421795720481-5nemqhrgmt7vjbdp5dk3lus6pd877l0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
